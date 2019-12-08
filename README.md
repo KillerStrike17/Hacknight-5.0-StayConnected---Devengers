@@ -33,7 +33,7 @@ Old Age homes are very difficult place to live in. Lots of people don’t have a
 
 ## Approach
 
-*Challenge 1 Create a Virtual Realisitic Avatar:
+*Challenge 1 Create a Virtual Realisitic Avatar*:
 
 To create Realistic Virtual Avatars we have used StarGANs
 
@@ -45,16 +45,17 @@ StarGAN has the generator network composed of two convolutional layers with the 
 
 We leverage PatchGANs for the discriminator network, which classifies whether local image patches are real or fake. 
 
-### Training 
+### Loss and Training 
 
 * Domain Classification Loss. 
 * Reconstruction Loss.
+* 200000 Epochs
 
 
 [Research paper](https://arxiv.org/pdf/1711.09020.pdf)
 
 
-*Challenge 2 Make it Talk:
+*Challenge 2 Make it Talk*:
 
 
 ![Dialogflow Architecture](Asset/dailogflow_architecture.png)
@@ -64,25 +65,45 @@ We first create an Agent within Dialogflow. An agent is essentially the entire c
 [Further Reading](https://medium.com/google-cloud/deconstructing-chatbots-getting-started-with-dialogflow-4f91deb32135)
 
 
-*Challenge3 Run on Android:
+*Challenge3 Run on Android*:
 
 
+### How Azure Helped US:
+
+* To train GANs 
 
 ### Results:
+
+Results are as follows:
+
+
+#### GANs to create a Virtual Realistic Avatar:
+
+
+![Realistic Avatar](Asset/realistic Image.png)
+
+The left side is the input and the right side is the output, the generated Images are very much real images.
 
 
 #### GANs to Generate Emotions:
 
+![emotions to images](Asset/emotions.png)
+
+We even add emotion to the images to make it look alive.
+
 
 #### GANs to Generate Hairs:
 
+![Hairs](Assets/hairs.png)
+
+We can customize the avatar by addiing variations to hairs. 
 
 
 #### GANs to Generate Different Clothing:
 
+![Clothing](Assets/DressChange.png)
 
-
-#### GANs to Generate:
+We even can change dress everyday so to make it more realistic.
 
 
 #### Chatbot Implementation:
