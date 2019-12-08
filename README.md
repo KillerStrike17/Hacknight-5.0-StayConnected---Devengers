@@ -16,19 +16,27 @@ Old Age homes are very difficult place to live in. Lots of people don’t have a
 * StarGANs
 * Azure Databricks
 * Android
-* Azure Web App Bot
+* Dialog Flow
 * Flask
 * Textblob
 * python
 * Azure ML Services
 
 
-
 ## Blockers:
 
 * To create a generic application, the model has to be trained over a huge amount of data. 
-* GANs are used to create Avatar, training them is extremely difficult as they are prone to Nash Equilibrium and Mode Collapse
+* GANs are used to create Avatar, training them is extremely difficult as they are prone to Nash Equilibrium and Mode Collapse.
+* Training GANs in 12 Hours is really diffiult. 
+* No expertise in the team to deploy models on Azure. 
 
 
 ## Solutions
+
+*Challenge 1 Create a Virtual Realisitic Avatar:
+
+*Challenge 2 Make it Talk:
+
+*Challenge3 Run on Android:
+
 
