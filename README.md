@@ -35,7 +35,30 @@ Old Age homes are very difficult place to live in. Lots of people don’t have a
 
 *Challenge 1 Create a Virtual Realisitic Avatar:
 
+To create Realistic Virtual Avatars we have used StarGANs
+
+### Architecture of StarGAN:
+
+[!StarGan Achietecture](Asset/StarGAN_Architecture.png)
+
+StarGAN has the generator network composed of two convolutional layers with the stride size of two for downsampling, six residual blocks, and two transposed convolutional layers with the stride size of two for upsampling.
+
+We leverage PatchGANs for the discriminator network, which classifies whether local image patches are real or fake. 
+
+### Training 
+
+* Domain Classification Loss. 
+* Reconstruction Loss.
+
+
+[Research paper](https://arxiv.org/pdf/1711.09020.pdf)
+
+
 *Challenge 2 Make it Talk:
+
+
+
+
 
 *Challenge3 Run on Android:
 
