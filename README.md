@@ -68,9 +68,10 @@ We first create an Agent within Dialogflow. An agent is essentially the entire c
 *Challenge3 Run on Android*:
 
 
-### How Azure Helped US:
+### How Azure can help us:
 
 * To train GANs 
+* Plotform to Deploy Machine Learning Models. 
 
 ### Results:
 
@@ -94,23 +95,27 @@ We even add emotion to the images to make it look alive.
 
 #### GANs to Generate Hairs:
 
-![Hairs](Assets/hairs.png)
+![Hairs](Asset/hairs.png)
 
 We can customize the avatar by addiing variations to hairs. 
 
 
 #### GANs to Generate Different Clothing:
 
-![Clothing](Assets/DressChange.png)
+![Clothing](Asset/DressChange.png)
 
 We even can change dress everyday so to make it more realistic.
 
 
+#### Android Implementation:
+
+![Android Implementation](Asset/Android Output.jpeg)
+
+
 #### Chatbot Implementation:
 
+![Chatbot Implementation]
 
-
-#### Android Implementation:
 
 
 
