@@ -110,10 +110,9 @@ We even can change dress everyday so to make it more realistic.
 
 #### Android Implementation:
 
+![Chatbot Implementation](Asset/mainScreen.jpeg)
 
 ![Android Implementation](Asset/AndroidOutput.jpeg)
-
-![Chatbot Implementation](Asset/mainScreen.jpeg)
 
 This is the android Implementation for chatbot
 
