@@ -103,7 +103,7 @@ We can customize the avatar by addiing variations to hairs.
 
 #### GANs to Generate Different Clothing:
 
-![Clothing](Asset/DressChange.png)
+![Clothing](Asset/dressChange.png)
 
 We even can change dress everyday so to make it more realistic.
 
