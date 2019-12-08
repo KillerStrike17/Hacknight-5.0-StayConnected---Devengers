@@ -15,11 +15,11 @@ Old Age homes are very difficult place to live in. Lots of people don’t have a
 * Jupyter Notebook
 * StarGANs
 * Azure Databricks
-* Android
+* Android Studio
 * Dialog Flow
 * Flask
 * Textblob
-* python
+* Python
 * Azure ML Services
 
 
@@ -31,7 +31,7 @@ Old Age homes are very difficult place to live in. Lots of people don’t have a
 * No expertise in the team to deploy models on Azure. 
 
 
-## Solutions
+## Approach
 
 *Challenge 1 Create a Virtual Realisitic Avatar:
 
@@ -39,7 +39,7 @@ To create Realistic Virtual Avatars we have used StarGANs
 
 ### Architecture of StarGAN:
 
-[StarGan Architecture](Asset/StarGAN_Architecture.png)
+![StarGan Architecture](Asset/StarGAN_Architecture.png)
 
 StarGAN has the generator network composed of two convolutional layers with the stride size of two for downsampling, six residual blocks, and two transposed convolutional layers with the stride size of two for upsampling.
 
@@ -57,7 +57,7 @@ We leverage PatchGANs for the discriminator network, which classifies whether lo
 *Challenge 2 Make it Talk:
 
 
-[Dialogflow Architecture](Asset/dailogflow_architecture.png)
+![Dialogflow Architecture](Asset/dailogflow_architecture.png)
 
 We first create an Agent within Dialogflow. An agent is essentially the entire chatbot application, the experience of collecting what the user is saying, mapping it to an intent, taking an action on it and providing the user with a response. And in the Agent, this all starts with a trigger event, called an Utterance. Once the bot is activated and has collected the user utterance. We need to understand the users intent. Essentially, why do they want to talk to our bot..
 
@@ -65,6 +65,31 @@ We first create an Agent within Dialogflow. An agent is essentially the entire c
 
 
 *Challenge3 Run on Android:
+
+
+
+### Results:
+
+
+#### GANs to Generate Emotions:
+
+
+#### GANs to Generate Hairs:
+
+
+
+#### GANs to Generate Different Clothing:
+
+
+
+#### GANs to Generate:
+
+
+#### Chatbot Implementation:
+
+
+
+#### Android Implementation:
 
 
 
